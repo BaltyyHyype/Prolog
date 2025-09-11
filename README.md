@@ -38,6 +38,7 @@ programación logica y funcional - Baltazar Pérez Sierra
 
 #Funcion Car y Funcion Cdr
 
+```lisp
 (defun recorre(lista)
     (car lista)
     (if lista
@@ -52,3 +53,5 @@ D 1
 ;segunda combinacion
 Break 9 [11]> (cadr(car(cddddr ' (a b c (d 1) (c x )mn))))
 X
+
+```
