@@ -1,16 +1,12 @@
 
------
-
-````markdown
 # Programación Lógica y Funcional
 Baltazar Pérez Sierra
 
----
 
-## Lisp
+# Lisp
 Ejercicios realizados en Common Lisp.
 
-### Divisiones y Potencias Recursivas (`sumasYpotencias.lsp`)
+# Divisiones y Potencias Recursivas (`sumasYpotencias.lsp`)
 Funciones recursivas básicas para operaciones aritméticas.
 
 ```lisp
