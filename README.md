@@ -1,5 +1,7 @@
 
-````txt
+-----
+
+````markdown
 # Programación Lógica y Funcional
 Baltazar Pérez Sierra
 
