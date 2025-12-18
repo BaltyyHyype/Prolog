@@ -384,7 +384,7 @@ Ejercicios de traducción de lenguaje natural a lógica de predicados (`oracione
 
 
 
-# 🤖 Proyecto Final: BotHype (Eliza) - Prolog & Lisp
+#  Proyecto Final: BotHype (Eliza) - Prolog & Lisp
 
 Este repositorio contiene la implementación final del proyecto **Eliza**, un sistema experto tipo chatbot desarrollado bajo dos paradigmas de programación distintos: **Lógico (Prolog)** y **Funcional (Common Lisp)**.
 
@@ -392,27 +392,27 @@ El bot, llamado **"BotHype"**, actúa como un asistente virtual capaz de diagnos
 
 ---
 
-## 🚀 Características Principales
+## Características Principales
 
-### 1. 🏥 Sistema Experto Médico (Guía Salud Morelia)
+### 1.  Sistema Experto Médico (Guía Salud Morelia)
 El bot es capaz de identificar enfermedades basándose en síntomas.
 * **Detección de Síntoma Doble (Multitasking):** Si el usuario ingresa `tengo tos y fiebre`, el bot busca una enfermedad que coincida con ambos. Si son enfermedades distintas, analiza cada síntoma por separado.
 * **Lógica de Descarte:** El bot realiza preguntas de seguimiento para confirmar o descartar enfermedades basándose en la base de conocimiento.
 * **Base de Datos Local:** Incluye direcciones reales de hospitales y especialistas en Morelia (Hospital Civil, Star Médica, IMSS Charo, etc.).
 
-### 2. 🌳 Base de Conocimiento Familiar
+### 2.  Base de Conocimiento Familiar
 Resuelve relaciones genealógicas y realiza conteos inteligentes.
 * **Consultas:** ¿Quién es el papá de...? ¿Quiénes son los tíos de...?
 * **Conteos:** Responde preguntas como `cuantos abuelos hay` o `cuantos integrantes son` utilizando lógica de conjuntos.
 * **Extra:** Incluye datos sobre la familia de Shrek.
 
-### 3. 🧠 Procesamiento de Lenguaje Natural (NLP)
+### 3.  Procesamiento de Lenguaje Natural (NLP)
 * **Tokenización:** Limpieza de signos de puntuación y normalización de texto.
 * **Patrones con Comodines:** Uso del comodín `s` (o variables en Prolog) para capturar frases completas o palabras clave.
 
 ---
 
-## 💻 Instrucciones de Ejecución
+##  Instrucciones de Ejecución
 
 ### Opción A: Versión Lisp (`eliza.lisp`)
 1.  Abre tu terminal y ejecuta SBCL (o tu intérprete preferido):
@@ -441,7 +441,7 @@ Resuelve relaciones genealógicas y realiza conteos inteligentes.
 
 ---
 
-## 📂 Código Fuente Completo
+## Código Fuente Completo
 
 Para fines de documentación, aquí se incluyen los códigos fuente completos de ambas versiones.
 
@@ -814,8 +814,13 @@ Para fines de documentación, aquí se incluyen los códigos fuente completos de
          (if tokens
              (respond-to tokens)
              (format t "BotHype> No escribiste nada, carnal.~%"))))))
-2. Código en Prolog (eliza.pl)
-Prolog
+
+
+```
+
+### 2. Código en Prolog (eliza.pl)
+
+```prolog
 
 % PROYECTO FINAL ELIZA PROLOG BALTY
 
@@ -1327,6 +1332,4 @@ loop :-
             loop
         )
     ).
-📝 Autor
-Baltazar (Balty)
-Proyecto Final de Programación Lógica y Funcional.
+```
